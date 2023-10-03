@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM023P2023.MainPage">
+
+
+    <StackLayout>
+        
+        <Entry Keyboard="Text"  Placeholder="Indique su nombre"  x:Name="txtnombre" />
+
+        <Entry Keyboard="Text"  Placeholder="Indique su apellido"  x:Name="txtapellido" />
+
+        <Entry Keyboard="Numeric"  Placeholder="Indique su telefono"  x:Name="txttelefono" />       
+        
+        <Button x:Name="btnproceso" Text="Procesar" Clicked="btnproceso_Clicked" />
+
+    </StackLayout>
+
+</ContentPage>
